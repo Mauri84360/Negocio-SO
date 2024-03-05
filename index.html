@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesas</title>
+    <link rel="stylesheet" href="./css/style.css">
+<!--Boot Strap 5-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <!-- Menú hamburguesa -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./img/burguer.svg" alt="burguer" height="35" width="35">
+            </div>
+            <div class="nav-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href class="contacto.html"nav-link">Contacto</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Iniciar sesión</a>
+                        <div class="login-box">
+                          <span class="close-login">X</span>
+                          <form action="#" method="POST">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="password">Contraseña</label>
+                            <input type="password" id="password" name="password" required>
+                            <button type="submit">Entrar</button>
+                          </form>
+                        </div>
+                      </li>
+                      <button id="toggle-mode" onclick="toggleMode()">Cambiar modo</button>
+                      <script src="modo.js"></script>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/hamburguesas1.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/hamburguesas2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/hamburguesas3.png" alt="Third slide">
+          </div>
+        </div>
+      </div>
+      
+      
+    <!-- Sección hero -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <h1 class>Las mejores hamburguesas del mundo</h1>
+            <p class>Prueba nuestras deliciosas y jugosas hamburguesas, hechas con ingredientes de primera calidad y al mejor precio.</p>
+            <a href="#contact" class="hero-button">Pide tu hamburguesa</a>
+        </div>
+    </section>
+    <!-- Sección servicios -->
+    <section id="servicios" class="servicios">
+        <div class="services-container">
+            <h2 class="services-title">Nuestros servicios</h2>
+            <p class="services-subtitle">Ofrecemos una variedad de servicios para satisfacer tus necesidades y gustos.</p>
+            <div class="services-grid">
+                <div class="services-card">
+                    <div class="services-icon">
+                        <img src="./img/delivery.png" alt="Icono de delivery">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-name">Delivery</h3>
+                        <p class="services-description">Te llevamos tu hamburguesa a donde quieras, en el menor tiempo posible y con todas las medidas de seguridad.</p>
+                    </div>
+                </div>
+                <div class="services-card">
+                    <div class="services-icon">
+                        <img src="./img/customization.png" alt="Icono de personalización">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-name">Personalización</h3>
+                        <p class="services-description">Puedes elegir los ingredientes que más te gusten para tu hamburguesa, desde el pan hasta la salsa. ¡Tú mandas!</p>
+                    </div>
+                </div>
+                <div class="services-card">
+                    <div class="services-icon">
+                        <img src="./img/quality.png" alt="Icono de calidad">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-name">Calidad</h3>
+                        <p class="services-description">Usamos solo carne de primera calidad, vegetales frescos y panes artesanales. Nuestras hamburguesas son 100% naturales y saludables.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <br>
+        
+        <div class="footer-container">
+            
+            <div class="footer-social">
+                <a href="#" class="footer-link"><img src="./img/facebook.png" alt="Icono de Facebook" width="25" height="25"></a>
+                <a href="#" class="footer-link"><img src="./img/twitter.png" alt="Icono de Twitter" width="25" height="25"></a>
+                <a href="#" class="footer-link"><img src="./img/instagram.png" alt="Icono de Instagram" width="25" height="25"></a>
+            </div>
+            <br>
+            <div class="footer-copy">
+                <p class="footer-text">© 2024. Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <br>
+    </footer>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <!--Bootstrap JS 5.3-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sh384-17E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM80Dewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+015P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+</html>
